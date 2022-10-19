@@ -1,0 +1,39 @@
+[buildPlans.iosevka-moin]
+family = "Iosevka Moin"
+spacing = "term"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = false
+
+  [buildPlans.iosevka-moin.variants]
+  inherits = "ss12"
+
+    [buildPlans.iosevka-moin.variants.design]
+    capital-g = "toothless-rounded-serifless-hooked"
+    m = "earless-rounded-double-arch"
+    lower-alpha = "crossing"
+    zero = "dotted"
+    one = "no-base"
+    asterisk = "penta-low"
+    brace = "curly"
+    lig-equal-chain = "without-notch"
+
+  [buildPlans.iosevka-moin.ligations]
+  inherits = "javascript"
+
+[buildPlans.iosevka-moin.widths.normal]
+shape = 600
+menu = 5
+css = "normal"
+
+[buildPlans.iosevka-moin.slopes.upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.iosevka-moin.slopes.italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"

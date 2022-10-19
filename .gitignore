@@ -1,0 +1,7 @@
+[Bb]uild/
+[Dd]ist/
+*.ttf
+*.otf
+*.woff
+
+*.zip
